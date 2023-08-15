@@ -12,6 +12,16 @@
 .item {
     display: flex;
     justify-content: space-around;
+    text-decoration: none;
+    color: black;
+}
+
+.emeil {
+text-decoration: none;
+}
+
+.number {
+  text-decoration: none; 
 }
 
 .container_list {
@@ -80,15 +90,28 @@ section {
       }
   
   h2 {
-    text-align: center;
+  font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+  text-align: center;
 }
    h3 {
-    display: flex;
-    justify-content: space-around;
+    font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+line-height: 42px;
+letter-spacing: 0.03em;
+text-align: center;
    }
 
 footer {
   display: block;
     background-color: rgb(83, 73, 73);
     -webkit-text-fill-color: rgb(255, 255, 255);
+}
+
+li {
+  display: flex;
 }
